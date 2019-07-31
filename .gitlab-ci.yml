@@ -1,0 +1,4 @@
+build-project:
+  stage: build
+  script:
+    - sbt clean compile test
